@@ -12,6 +12,10 @@ include "ConfigurasiClass.php";
     </title>
 </head>
 <body>
+
+<a href="input_data.php">Tambah Data</a>
+<br>
+<br>
 <table border="2px solid">
     <thead>
     <tr>
@@ -39,7 +43,7 @@ include "ConfigurasiClass.php";
                 </td>
                 <td>
                     <a href="update_data.php?&id=<?php echo $id;?>">[up]</a> |
-                    <a href="hapus_data.php?&id=<?php echo $id;?>" onclick="confirm('yskin mau hapus?')">[del]</a>
+                    <a href="hapus_data.php?&id=<?php echo $id;?>" onclick=" return confirm('yskin mau hapus?')">[del]</a>
                 </td>
             </tr>
         <?php

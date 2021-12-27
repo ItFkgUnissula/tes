@@ -15,7 +15,7 @@ if (isset($_POST['submit_btn'])){
         echo '
         <script>
         alert("input sukses");
-        window.location.href = "input_data.php";
+        window.location.href = "tampil_data.php";
         </script>
         ';
     }
